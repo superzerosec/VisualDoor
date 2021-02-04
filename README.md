@@ -14,5 +14,5 @@ docker build -t myvisualdoor .
 
 # Usage
 ```
-docker run --rm -it -p 443 myvisualdoor python /app/visualdoor.py https://some-vpn.lol:8090 hacke.rs 1337
+docker run --rm -it -p 443:443 myvisualdoor python /app/visualdoor.py https://some-vpn.lol:8090 hacke.rs 1337
 ```
